@@ -6,7 +6,7 @@ Hi! I'm **Satyam Kumar Jha**, a Computer Application student passionate about cr
 
 ## 🌐 Live Portfolio
 
-[Visit My Portfolio](https://your-username.github.io/your-portfolio-repo/)  
+[Visit My Portfolio](https://sa50tyam11.github.io/PORTFOLIO-MAIN/)  
 
 ---
 
