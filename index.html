@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Kumar Jha - Portfolio</title>
+    <meta name="description" content="Portfolio of Satyam Kumar Jha, a Computer Application student from Bihar University passionate about creating innovative digital solutions.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SKJ</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#projects" class="nav-link">Projects</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#education" class="mobile-nav-link">Education</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Satyam</span>
+                    </h1>
+                    <div class="typing-container">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Computer Application student passionate about creating innovative
+                        digital solutions. Currently pursuing Bachelor's degree from
+                        Bihar University, exploring the vast world of technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <a href="#resume" class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <img src="assets/img1.jpg" alt="Satyam Kumar Jha" class="profile-image">
+                        <div class="status-indicator"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m Satyam Kumar Jha, a frontend developer with a strong foundation in web technologies
+                         and a passion for creating responsive, accessible, and user-centered digital experiences. 
+                         Currently pursuing my Bachelor of Computer Applications (BCA), I have been actively developing
+                          real-world projects using HTML, CSS, JavaScript, and frameworks like React. I focus on writing
+                           clean, maintainable code and delivering intuitive UI solutions that align with modern web standards. 
+                           I'm a fast learner, highly adaptable, and committed to continuous growth — ready to contribute effectively
+                            in a collaborative, professional environment.
+                    </p>
+                    
+
+                    <div class="about-info">
+                        <div class="info-item">
+                            <h4>Location</h4>
+                            <p>Bihar, India</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Degree</h4>
+                            <p>BCA Student</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>University</h4>
+                            <p>Bihar University</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Status</h4>
+                            <p>Available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Done</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="education-card">
+                            <h3>Bachelor of Computer Application</h3>
+                            <h4>Bihar University (BRBU)</h4>
+                            <p class="education-period">Currently Pursuing • 2024 - 2027</p>
+                            <p class="education-description">
+                                Comprehensive study of computer applications, programming
+                                languages, database management, software engineering, and
+                                web development. Focus on practical application of
+                                theoretical concepts.
+                            </p>
+                        </div>
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content reverse">
+                        <div class="education-card">
+                            <h3>Higher Secondary Education</h3>
+                            <h4>CBSE - Sree Ayyappa Public School, Bokaro</h4>
+                            <p class="education-period">Completed • 2022 - 2024</p>
+                            <p class="education-description">
+                                Completed higher secondary education with PCM (Physics, Chemistry, Mathematics) + Economics as subjects, building strong foundation for computer science studies.
+                            </p>
+                        </div>
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Here are the technologies and skills I've been working with and
+                    continuously learning.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon frontend">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon programming">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">C Programming</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50"></div>
+                            </div>
+                            <span class="skill-percentage">30%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon database">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database & Tools</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="20"></div>
+                            </div>
+                            <span class="skill-percentage">20%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="additional-skills">
+                <h3>Other Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Adaptability </span>
+                    <span class="skill-tag">Curiosity</span>
+                    <span class="skill-tag">Software Development</span>
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">Project Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+            <div class="section-divider"></div>
+            <p class="section-description">
+                Here are some of the projects I've built while learning web development and programming.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1: Grade Calculator -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/grade.jpg" alt="Grade Calculator">
+                    <div class="project-overlay">
+                        <h3>Student Grade Calculator</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/sa50tyam11/grade-calculator" target="_blank" class="btn btn-outline-white">GitHub</a>
+                            <a href="https://sa50tyam11.github.io/BCA-grade-calculator/" target="_blank" class="btn btn-outline-white">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Face & Eye Detection -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/face eye detect .jpg" alt="Face & Eye Detection">
+                    <div class="project-overlay">
+                        <h3>Face & Eye Detection</h3>
+                        <p>C++ & OpenCV</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/sa50tyam11/face-eye-detection-opencv" target="_blank" class="btn btn-outline-white">GitHub</a>
+                            <a href="#" target="_blank" class="btn btn-outline-white">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: BMI Calculator -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/bmi.jpg" alt="BMI Calculator">
+                    <div class="project-overlay">
+                        <h3>BMI Calculator</h3>
+                        <p>HTML, CSS, JS</p>
+                        <div class="project-buttons">
+                            <a href="https://sa50tyam11.github.io/BMI-calculator/" target="_blank" class="btn btn-outline-white">Live Demo</a>
+                            <a href="https://github.com/sa50tyam11/BMI-calculator" target="_blank" class="btn btn-outline-white">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-card">
+                <div class="resume-icon">
+                    <i class="fas fa-file-text"></i>
+                </div>
+                <h2>Download My Resume</h2>
+                <p>
+                    Get a comprehensive overview of my education, skills, and
+                    experience. Perfect for potential employers and collaboration
+                    opportunities.
+                </p>
+                
+                <div class="resume-buttons">
+                    <button class="btn btn-white" onclick="downloadResume()">
+                        <i class="fas fa-download"></i>
+                        Download PDF
+                    </button>
+                    <button class="btn btn-outline-white" onclick="viewResume()">
+                        <i class="fas fa-eye"></i>
+                        View Online
+                    </button>
+                </div>
+
+                <div class="resume-stats">
+                    <div class="resume-stat">
+                        <div class="stat-value">Fresher</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="resume-stat">
+                        <div class="stat-value">BCA</div>
+                        <div class="stat-label">Current Degree</div>
+                    </div>
+                    <div class="resume-stat">
+                        <div class="stat-value">5+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Have a project in mind or want to collaborate? I'd love to hear from
+                    you. Let's create something amazing together!
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>krjhasatyam128@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon phone">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 6200964876</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon location">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Bihar, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon time">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Satyam Kumar Jha</h3>
+                    <p>
+                        Computer Application student passionate about creating innovative
+                        digital solutions. Always learning, always growing.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/sa50tyam11" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/satyamkrjha5011" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_satya_5011?igsh=dmtjbHMwYTRtcTZh" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>krjhasatyam128@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 6200964876</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bihar, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2025 Satyam Kumar Jha. All rights reserved.
+                    Made with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="toast-icon"></i>
+            <span class="toast-message"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
